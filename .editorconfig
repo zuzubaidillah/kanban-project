@@ -3,10 +3,17 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
-indent_size = 4
+indent_size = 2
 indent_style = space
 insert_final_newline = true
 trim_trailing_whitespace = true
+ij_any_block_comment_at_first_column = false
+ij_any_keep_first_column_comment = false
+ij_any_line_comment_at_first_column = false
+ij_html_block_comment_at_first_column = false
+ij_html_line_comment_at_first_column = false
+ij_php_keep_first_column_comment = false
+ij_php_line_comment_at_first_column = false
 
 [*.md]
 trim_trailing_whitespace = false
